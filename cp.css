@@ -1,0 +1,17 @@
+.c{
+    background-color: black;
+}
+.d{
+    border: 2px solid palevioletred;
+}
+
+.a{
+    color: orange;
+}
+.b{
+    display: block;
+    height: 200px;
+    width: 600px;
+    background-color:aqua ;
+    border: 2px solid orange;
+}
