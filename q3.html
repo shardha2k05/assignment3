@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+        <input id="field1" type="text" value="Field1">
+        <input id="field2" type="text" value="Field2">
+    
+    </form>
+    <script>
+        $("#field1").blur(function(){
+            $(this).css({"filter":"blur(1px)"})
+        })
+    </script>
+</body>
+</html>
